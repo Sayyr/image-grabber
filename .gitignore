@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- Datasets & sorties générées (NE PAS committer les images) ---
+images/
+dataset/
+dataset_moto/
+dataset*/
+**/_rejected/
+labels.csv
+dataset_split.csv
+attributions.csv
+
+# --- Poids de modèles ---
+*.pt
+*.pth
+*.onnx
+
+# --- Secrets ---
+.env
+
+# --- OS ---
+.DS_Store
+Thumbs.db
