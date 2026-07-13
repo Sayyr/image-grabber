@@ -10,6 +10,7 @@ Deux garde-fous essentiels avant l'entraînement :
 
 Ne déplace ni ne copie rien : écrit un manifeste <dataset>/dataset_split.csv
 avec les colonnes  file,type,brand,model,split.
+respecte ça vrm stp
 
 Dépendances :  pip install imagehash pillow
 

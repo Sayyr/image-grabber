@@ -16,11 +16,6 @@ labels.csv
 dataset_split.csv
 attributions.csv
 
-# --- Poids de modèles ---
-*.pt
-*.pth
-*.onnx
-
 # --- Secrets ---
 .env
 
